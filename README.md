@@ -1,5 +1,7 @@
 # HandOff
 
+> **语言：** 中文 | [English](./README-en.md)
+
 **WorkBuddy ↔ CodeBuddy / OpenCode 单机双工具协作技能** —— 用「共享项目大脑」（`.codebuddy/CODEBUDDY.md`）+「结构化交接快照」（`handoff.md`）+「项目级 agent 规则」（`AGENTS.md`），让两个工具接力时不重复描述需求，并大幅降低 token 耗用。
 
 > A single-machine collaboration skill for WorkBuddy and CodeBuddy/OpenCode: a shared project brain, a structured handoff snapshot, and project-level agent rules — context flows between tools through files, not repeated prompts.
@@ -36,7 +38,8 @@ HandOff 把协作固化成一键技能：**建新项目、接旧项目、切工�
 
 ```
 HandOff/
-├── README.md                  ← 本文件
+├── README.md                  ← 本文件（中文）
+├── README-en.md               ← English version
 └── handoff/                   ← 技能本体（安装时整份复制）
     ├── SKILL.md               ← 主工作流（收集输入 → 新/旧项目两条路径 → 验证 → 交接）
     ├── assets/                ← 可复制进目标项目的模板
